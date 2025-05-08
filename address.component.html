@@ -1,0 +1,67 @@
+<h2>Customer Details Form</h2>
+
+<form #customerForm="ngForm">
+  <!-- Customer Details -->
+  <fieldset>
+    <legend>Customer Details</legend>
+    <label>First Name: <input type="text" name="firstName" ngModel /></label><br />
+    <label>Middle Name: <input type="text" name="middleName" ngModel /></label><br />
+    <label>Last Name: <input type="text" name="lastName" ngModel /></label><br />
+    <label>Email ID: <input type="email" name="emailId" ngModel /></label>
+  </fieldset>
+
+  <!-- Address -->
+  <fieldset>
+    <legend>Address</legend>
+    <label>Type:
+      <select name="addressType" ngModel>
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+      </select>
+    </label><br />
+    <label>Line 1: <input type="text" name="line1" ngModel /></label><br />
+    <label>Line 2: <input type="text" name="line2" ngModel /></label><br />
+    <label>Line 3: <input type="text" name="line3" ngModel /></label><br />
+    <label>City:
+      <select name="city" ngModel>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Bangalore</option>
+      </select>
+    </label><br />
+    <label>State:
+      <select name="state" ngModel>
+        <option>Delhi</option>
+        <option>Maharashtra</option>
+        <option>Karnataka</option>
+      </select>
+    </label><br />
+    <label>Country:
+      <select name="country" ngModel>
+        <option>India</option>
+        <option>USA</option>
+      </select>
+    </label><br />
+    <label>Pin Code: <input type="text" name="pinCode" ngModel /></label><br />
+    <label>Phone Number: <input type="text" name="phoneNumber" ngModel /></label>
+  </fieldset>
+
+  <!-- Address Proof -->
+  <fieldset>
+    <legend>Address Proof</legend>
+    <label>Type:
+      <select name="proofType" ngModel>
+        <option>Aadhar</option>
+        <option>PAN</option>
+        <option>Passport</option>
+      </select>
+    </label><br />
+    <label>Document Number: <input type="text" name="docNumber" ngModel /></label><br />
+    <label>Aadhar Number: <input type="text" name="aadharNumber" ngModel /></label><br />
+    <label>PAN Number: <input type="text" name="panNumber" ngModel /></label>
+  </fieldset>
+
+  <!-- Buttons -->
+  <button type="submit">Save</button>
+  <button type="reset">Cancel</button>
+</form>
