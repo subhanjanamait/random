@@ -1,0 +1,22 @@
+1	Create form to fill Customer details	Controls
+First Name	Textbox
+Middle Name	Textbox
+Last Name	Textbox
+EmailId	Textbox
+
+Address	Type	Dropdown
+Line1	Textbox
+Line2	Textbox
+Line3	Textbox
+City	Dropdown
+State	Dropdown
+Country	Dropdown
+PinCode	Textbox
+Phone Number	Textbox
+
+Address Proof	Type	Dropdown
+Document Number	Textbox
+Aadhar Number	Textbox
+Pan Number	Textbox
+Save	Button
+Cancel	Button         can you create an angular app with component address where i an fill all these address address proof etc
